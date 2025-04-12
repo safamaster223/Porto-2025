@@ -1,0 +1,226 @@
+body {
+    margin:0;
+    padding:0;
+    width:100%;
+    font-family: "Lexend", sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 12px;
+    margin:12px;
+    z-index: 999;
+    padding: 5px 10px;
+    height:100px;
+    width:96%;
+}
+
+.profil1 h1 {
+    color:orange;
+    font-size: 35px;
+    margin-right:120px;
+}
+.profil {
+    display: flex;
+    align-items: center;
+    margin: 0 12px 0 0;
+}
+
+.logo {
+    border-radius:50%;
+    margin:12px;
+    width: 50px;
+    height: 50px;
+}
+
+ul, li, a {
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+    justify-content: center;
+    display: flex;
+    padding: 0 12px 0 0;
+    margin:0 7px 0 0;
+    font-size:15px;
+}
+
+section {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background:pink;
+    padding-top:150px;
+    border-radius:15px;
+}
+
+.center-btn1 {
+    margin:20px;
+}
+
+
+.profil1 {
+    margin:0px 0px 0px 120px;
+    width: 100%;;
+}
+
+.gambarprofil {
+    margin: 0 120px 0 0;
+}
+
+.sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    height:10vh;
+    padding-top: 20px;
+}
+
+.sec2, h1 {
+    text-align: center;
+}
+
+.sec2 {
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    padding-top:20px;
+}
+
+.sub1 {
+    padding:20px;
+}
+
+.project {
+    display:flex;
+    flex-direction: column;
+    background-color:white;
+    padding-top: 20pxs;
+}
+
+.projek1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+
+
+
+.p1 {
+    margin:40px;
+}
+
+.p2 {
+    margin:40px;
+}
+.projek2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:40px;
+}
+
+.fa-brands {
+    font-size:30px;
+    color:orange;
+    margin: 12px;
+    padding: 12px;
+}
+
+.fa-instagram {
+    margin-left: 30px;
+}
+
+.fa-tiktok {
+    margin-right: 12px;
+}
+
+.btn {
+    background-color: orange;
+    color:white;
+    height:40px;
+    text-align: center;
+    width:150px;
+    padding:13px 0 0 0;
+    border-radius:10px;
+}
+
+.center-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.skils {
+    display:flex;
+    flex-direction:column;
+    padding-top:12px;
+    background: white;
+}
+
+.skils ul li a {
+    text-align:center;
+    display: flex;
+    padding:12px;
+}
+
+.layanan {
+    display: flex;
+    justify-content:center;
+    align-items: center ;
+    background:white;
+    text-align: center;
+}
+
+.front {
+    margin:80px;
+}
+
+.back {
+    margin:80px;
+}
+
+.foot {
+    background:white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.subfot1 {
+    display: flex;
+    align-items: center; /* biar icon sama teks sejajar vertikal */
+    gap: 10px; /* kasih jarak antara icon dan teks */
+  }
+  
+.fa-envelope {
+    font-size:45px;
+    color:orange;
+    margin:20px;
+}  
+
+.text-email {
+    margin:0;
+    text-align: left;
+}
+
+.fa-address-book {
+    font-size:45px;
+    color: orange;
+    margin:20px 80px 0 0;
+}
+
+.text-contact {
+    margin:0;
+    text-align: left;
+}
